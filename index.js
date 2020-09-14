@@ -59,6 +59,11 @@ inquirer
       message: "Enter email",
       name: "email",
     },
+    {
+      type: "input",
+      message: "Include the link of the demo video",
+      name: "videoLink",
+    },
   ])
   .then(function (response) {
     const readMeString = `# ${response.title}
@@ -94,6 +99,8 @@ ${response.contributing}
 ${response.tests}
 
 ## Questions
+Link to the demo video : ${response.videoLink}
+
 Github repo link : www.github.com/${response.username}
 
 If you have any questions reach out to me at ${response.email}.
