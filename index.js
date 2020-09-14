@@ -92,10 +92,10 @@ Distributed under  ${response.license}.
 ## Usage
 ${response.usage}
 
-## contributing
+## Contributing
 ${response.contributing}
 
-## tests
+## Tests
 ${response.tests}
 
 ## Questions
